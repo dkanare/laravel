@@ -25,7 +25,7 @@ RUN npm install
 RUN apt-get update
 RUN apt install zip unzip
 #RUN apt-get install git
-RUN composer install
+#RUN composer install
 
 RUN docker-php-ext-install pdo pdo_mysql
 
