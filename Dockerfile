@@ -21,7 +21,7 @@ COPY --chown=33:33 . /var/www
 RUN chown -R www-data:www-data /var/www
 WORKDIR /var/www
 
-RUN npm install
+#RUN npm install
 RUN apt-get update
 RUN apt install zip unzip
 #RUN apt-get install git
