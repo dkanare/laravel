@@ -1,6 +1,6 @@
 name: Deploy on EC2
 
-# Trigger the workflow on push and 
+# Trigger the workflow on push and &
 # pull request events on the production branch
 on:
   push:
